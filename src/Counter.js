@@ -9,6 +9,9 @@ function Counter() {
 
   return (
     <>
+      <input placeholder="Your name" type="name" />
+      <button>Submit</button>
+
       <div className="container">
         <h1 className="number">{count}</h1>
       </div>
